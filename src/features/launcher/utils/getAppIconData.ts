@@ -13,6 +13,7 @@ export const getAppIconData = async (appPath: string): Promise<string> => {
 
   try {
     const tmpId = uuidv1();
+    // TODO: アイコンの名前が一律じゃなかったのでここも検索するかDropイベントから取得する
     const iconPath = `${appPath}/Contents/Resources/AppIcon.icns`;
     const outputPath = path.join(__dirname, "tmp", tmpId + "iconset");
 
