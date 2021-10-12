@@ -9,7 +9,7 @@
     "watch": "webpack --watch"
   },
   "dependencies": {
-    "electron": "^5.0.1",
+    "electron": "^11.5.0",
     "nedb": "^1.8.0",
     "polished": "3.3.0",
     "react": "16.8.4",
